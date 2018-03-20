@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "v_CCDivineRight";
-	src: url('fonts/v_CCDivineRight-Regular.ttf');
+	src: url('v_CCDivineRight-Regular.ttf');
 }
 
 @font-face {
 	font-family: "v_Kruella";
-	src: url('fonts/v_Kruella.ttf');
+	src: url('v_Kruella.ttf');
 }
 
 body, html{
@@ -33,7 +33,7 @@ header{
 	height:50px;
 	float:left;
 	margin:0 10px;
-	background: url('img/icon.png');
+	background: url('icon.png');
 	background-size:contain;
 }
 #kajmond{
