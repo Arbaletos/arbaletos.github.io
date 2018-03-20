@@ -1,0 +1,165 @@
+@font-face {
+	font-family: "v_CCDivineRight";
+	src: url('fonts/v_CCDivineRight-Regular.ttf');
+}
+
+@font-face {
+	font-family: "v_Kruella";
+	src: url('fonts/v_Kruella.ttf');
+}
+
+body, html{
+	background-color:#aaaaaa;
+	padding: 0;
+	margin: 0;
+	font-family: "v_Kruella", serif;
+	color:#aa1111;
+	font-size: 20px;
+}
+
+header{
+        position:realtive;
+	color:#cccc00;
+	font-family: "v_CCDivineRight", serif;
+	background-color:#400040;
+	width:100%;
+	height: 50px;
+	padding: 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+#icon{
+	width:50px;
+	height:50px;
+	float:left;
+	margin:0 10px;
+	background: url('img/icon.png');
+	background-size:contain;
+}
+#kajmond{
+	float:left;
+	margin-left:10px;
+	line-height:50px;
+}
+
+#nav{
+	height:50px;
+	float:right;
+	display:flex;
+	align-items:center;
+	flex-direction:row;
+}
+
+#nav a{
+	display:block;
+	color:#cccc00;
+	font-family: "v_Kruella", serif;
+	text-decoration:none;
+	padding: 0 20px;
+	height: 70px;
+	line-height: 70px;
+}
+
+#nav a:hover {
+	color: #ffff00;
+	background: #00cc00;
+}
+
+footer{
+        width:100%;
+	min-height:100px;
+	color:#cccc00;
+        float:left;
+	background-color:#400040;
+	text-align:center;
+}
+footer span{
+	line-height:100px;
+}
+
+
+#main{
+	min-height:400px;
+	width:1000px;
+	margin:0 auto;
+	padding:20 0;
+}
+
+h1{	
+	font-family: "v_CCDivineRight", serif;
+}
+
+#main a{
+        color:#119911;
+}
+
+#main a:hover{
+	color:#999911;
+}
+
+.list{
+	width:100%;
+}
+
+.listhead{
+	width:1000px;
+}
+
+.list_entry{
+	display:block;
+        height: 100px;
+        float:left;
+	width:25%;
+}
+
+.miniimage{
+	display:block;
+        height: 200px;
+        float:left;
+        align:center;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.preview{
+	height:100%;
+	
+}
+
+#nava a{
+	color:#aa1111;
+	text-decoration:none;
+}
+
+#nava a:hover {
+	color:#dddd00;
+}
+
+#newaro{
+	align:center;
+	padding-top:30px;
+}
+
+.datum {
+	color:#dddd00;
+	width:100%;
+	font-size:25px;
+}
+.nomo {
+	font-size:25px;
+	padding-left:10px;
+}
+
+.neweto{
+	padding:10px 0;
+}
+
+
+
+#newaro img
+{
+	width:60%;
+	margin:0 20%;
+}
+
